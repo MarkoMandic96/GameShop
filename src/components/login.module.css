@@ -1,0 +1,167 @@
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.LoginBox {
+  background-color: whitesmoke;
+  border-radius: 5px;
+  margin: 250px 50px;
+  box-shadow: 0px 5px 5px;
+}
+
+.formBlock {
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+input {
+  border: 1px solid #363636;
+  border-radius: 5px;
+  padding: 3px;
+  margin-top: 10px;
+}
+
+.dataInputVertical {
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dataInputHorizontal {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+h4 {
+  margin: 0px;
+  padding-right: 5px;
+}
+
+.inputDate {
+  border: 1px solid #f0f0f0;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 0;
+  align-self: flex-end;
+}
+
+.blogButton {
+  max-width: 200px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px black;
+  background-color: #3AE5E5;
+  transition: transform 0.2s;
+  align-self: flex-end;
+  justify-self: bottom;
+}
+
+.blogButton:hover {
+  /*text-decoration: none;*/
+  background-color: #015F70;
+  transform: scale(1.1, 1.1);
+  
+}
+
+.socialButtons {
+  height: 30px;
+  width: 30px;
+  padding: 15px 15px;
+  margin: 0px 5px;
+  transition: transform 0.2s;
+}
+
+.lrButton {
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: #a91b08;
+  color: white;
+  align-self: flex-end;
+  margin-top: 20px;
+  height: 40px;
+  width: 150px;
+}
+.lrButton:hover {
+  background-color: #871506;
+}
+
+.linkBtn {
+  align-self: flex-end;
+}
+
+.inputRadio {
+  margin: 0px 5px;
+}
+
+@media screen and (max-width: 52em) {
+  .formContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formBox {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 250px 0px;
+    box-shadow: 0px 7px 7px;
+  }
+
+  .formBlock {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formBox {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 70px 0px;
+    box-shadow: 0px 7px 7px;
+  }
+
+  .formBlock {
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.blogButton {
+  max-width: 200px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px black;
+  background-color: #3AE5E5;
+  transition: transform 0.2s;
+}
+
+.blogButton:hover {
+  text-decoration: none;
+  transform: scale(1.1, 1.1);
+  background-color: #3AE5E5;
+}

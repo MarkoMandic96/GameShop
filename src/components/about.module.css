@@ -1,0 +1,99 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 100px 100px;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.memberContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.memberCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 20px;
+}
+
+.profilePic {
+  /* max-height: 400px;
+  max-width: 300px; */
+  width: 300px;
+}
+
+.info {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 52em) {
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 70px;
+  }
+
+  .memberCard {
+    margin: 10px;
+  }
+
+  .info {
+    max-width: 100px;
+    padding: 10px 0px;
+  }
+
+  .profilePic {
+    width: 150px;
+  }
+
+  .section {
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 40px;
+  }
+
+  .memberContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .memberCard {
+    margin: 10px;
+  }
+
+  .info {
+    max-width: 100px;
+    padding: 5px 0px;
+  }
+
+  .profilePic {
+    width: 100px;
+  }
+
+  .info p {
+    font-size: 8;
+    margin: 0px;
+  }
+
+  .section {
+    margin-bottom: 20px;
+  }
+}
